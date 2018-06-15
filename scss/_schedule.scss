@@ -1,0 +1,32 @@
+.schedule{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    
+    .days {
+        flex: 0 1 30%;
+        margin: 1rem;
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: #eee;
+        min-height: 215px;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        border-bottom: 1px dashed gray;
+    }
+
+    ul{
+        padding-left: 16px;
+    }
+
+    li{
+        list-style: square;
+    }
+
+}
+
+
+

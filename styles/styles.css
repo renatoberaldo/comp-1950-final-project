@@ -1,4 +1,52 @@
 /* CSS Document */
+.outline {
+  padding: 0px 20px; }
+  .outline div {
+    line-height: 25px;
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-bottom: 2px dashed #d8d2d2; }
+  .outline div.first {
+    padding-top: 0px; }
+  .outline div.last {
+    border: 0px;
+    padding-bottom: 0px; }
+
+.schedule {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .schedule .days {
+    flex: 0 1 30%;
+    margin: 1rem;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    min-height: 215px; }
+  .schedule h2 {
+    text-transform: uppercase;
+    border-bottom: 1px dashed gray; }
+  .schedule ul {
+    padding-left: 16px; }
+  .schedule li {
+    list-style: square; }
+
+.home {
+  padding: 0px 20px; }
+  .home div {
+    line-height: 25px;
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-bottom: 2px dashed #d8d2d2; }
+  .home div.first {
+    padding-top: 0px; }
+  .home div.last {
+    border: 0px;
+    padding-bottom: 0px; }
+
 /* CSS Document */
 html {
   box-sizing: border-box; }
@@ -296,5 +344,21 @@ footer {
   .footer-nav a {
     font-size: 0.8em;
     padding: 0 5px; } }
+table {
+  width: 100%;
+  border-collapse: collapse; }
+
+tr:nth-of-type(odd) {
+  background: #eee; }
+
+th {
+  background: #333;
+  color: white;
+  font-weight: bold; }
+
+td, th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left; }
 
 /*# sourceMappingURL=styles.css.map */
