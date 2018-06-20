@@ -127,9 +127,9 @@ textarea {
   flex-wrap: wrap;
   justify-content: space-around; }
   .schedule .days {
-    flex: 0 1 30%;
-    margin: 1rem;
-    padding: 0px 20px;
+    flex: 0 1 23%;
+    margin: 0.4rem;
+    padding: 0px 10px;
     display: flex;
     flex-direction: column;
     background-color: #eee;
@@ -141,6 +141,25 @@ textarea {
     padding-left: 16px; }
   .schedule li {
     list-style: square; }
+  @media screen and (max-width: 900px) {
+    .schedule .days {
+      flex: 0 1 30%;
+      margin: 7px;
+      padding: 0 10px; } }
+  @media screen and (max-width: 750px) {
+    .schedule .days {
+      flex: 0 1 45%;
+      margin: 15px;
+      padding: 0 10px; } }
+  @media screen and (max-width: 600px) {
+    .schedule .days {
+      flex: 0 1 95%;
+      margin: 10px;
+      padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+      background-color: #eee;
+      min-height: 215px; } }
 
 .home {
   padding: 0px 20px; }
@@ -156,6 +175,13 @@ textarea {
     border: 0px;
     padding-bottom: 0px; }
 
+@media screen and (max-width: 900px) {
+  .course_number {
+    font-weight: 400; }
+
+  .course_name {
+    font-size: 1.3em;
+    font-weight: 400; } }
 /* CSS Document */
 html {
   box-sizing: border-box; }
@@ -243,10 +269,10 @@ main {
 .info-box h1 {
   margin-bottom: 0.2em; }
 
-.year {
+.course_number {
   font-weight: 400; }
 
-.model {
+.course_name {
   font-size: 2.3em;
   font-weight: 400; }
 
@@ -372,24 +398,20 @@ footer {
   .info-box {
     top: 60px;
     font-size: 0.9em; } }
-@media screen and (max-width: 768px) {
-  .info-box {
-    font-size: 0.8em; }
+@media screen and (max-width: 900px) {
+  .course_number {
+    font-weight: 400; }
 
-  .price {
-    margin-bottom: 10px; }
+  .course_name {
+    font-size: 1.8em;
+    font-weight: 400; } }
+@media screen and (max-width: 750px) {
+  .course_number {
+    font-weight: 1.0em; }
 
-  .ratings {
-    display: none; }
-
-  .gallery {
-    width: 90%; } }
-@media screen and (max-width: 620px) {
-  .info-box {
-    font-size: 0.7em; }
-
-  .price {
-    display: none; } }
+  .course_name {
+    font-size: 1.2em;
+    font-weight: 200; } }
 @media screen and (max-width: 500px) {
   header {
     align-items: center;
@@ -418,8 +440,15 @@ footer {
     border-bottom: none; }
 
   .info-box {
-    top: 15px;
-    left: 20px; }
+    top: 3px; }
+
+  .course_number {
+    font-size: 0.8em;
+    font-weight: 100; }
+
+  .course_name {
+    font-size: 1.0em;
+    font-weight: 100; }
 
   .footer-nav a {
     font-size: 0.9em;
@@ -430,28 +459,21 @@ footer {
     margin-top: 20px; } }
 @media screen and (max-width: 370px) {
   .info-box {
-    top: 0;
-    left: 10px; }
+    top: 2px; }
 
-  .year {
-    font-size: 0.8em; }
+  .course_number {
+    font-weight: 100; }
 
-  .model {
-    font-size: 1.5em; }
+  .course_name {
+    font-size: 0.5em;
+    font-weight: 100; }
 
   .row {
     flex-direction: column;
     margin-bottom: 0; }
 
-  .gallery h2 {
-    font-size: 1.8em; }
-
-  .gallery .row .item {
-    margin-right: 0;
-    margin-bottom: 4px; }
-
   .footer-nav a {
-    font-size: 0.8em;
+    font-size: 0.5em;
     padding: 0 5px; } }
 footer {
   border-top: 1px solid #b2bcc7;

@@ -19,3 +19,14 @@
         padding-bottom: 0px;
     }
 }
+
+@media screen and (max-width: 900px) {
+	.course_number {
+        font-weight: 400;
+    }
+    
+    .course_name {
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+}

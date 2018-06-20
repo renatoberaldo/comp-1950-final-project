@@ -4,9 +4,9 @@
     justify-content: space-around;
     
     .days {
-        flex: 0 1 30%;
-        margin: 1rem;
-        padding: 0px 20px;
+        flex: 0 1 23%;
+        margin: 0.4rem;
+        padding: 0px 10px;
         display: flex;
         flex-direction: column;
         background-color: #eee;
@@ -26,7 +26,44 @@
         list-style: square;
     }
 
+    @media screen and (max-width: 900px){
+	
+        .days {
+            flex: 0 1 30%;
+            margin: 7px;
+            padding: 0 10px;
+        }
+        
+    }
+
+
+    @media screen and (max-width: 750px){
+	
+        .days {
+            flex: 0 1 45%;
+            margin: 15px;
+            padding: 0 10px;
+        }
+        
+    }
+
+    @media screen and (max-width: 600px){
+	
+        .days {
+            flex: 0 1 95%;
+            margin: 10px;
+            padding: 0 10px;
+            display: flex;
+            flex-direction: column;
+            background-color: #eee;
+            min-height: 215px;
+        }
+        
+    }
+
 }
+
+
 
 
 

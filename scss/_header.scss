@@ -102,11 +102,11 @@ main {
 	margin-bottom: 0.2em;
 }
 
-.year {
+.course_number {
 	font-weight: 400;
 }
 
-.model {
+.course_name {
 	font-size: 2.3em;
 	font-weight: 400;
 }
@@ -183,6 +183,8 @@ main {
  	opacity: 1;
   }
 }
+
+
 
 .gallery {
 	width: 84%;
@@ -270,34 +272,28 @@ footer {
 		
 }
 
-@media screen and (max-width: 768px){
-	
-	.info-box {
-		font-size: 0.8em;
-	}
-
-	.price {
-		margin-bottom: 10px;
-	}
-	
-	.ratings {
-		display: none;
-	}
-	
-	.gallery {
-		width: 90%;
-	}
-	
+@media screen and (max-width: 900px) {
+	.course_number {
+        font-weight: 400;
+    }
+    
+    .course_name {
+        font-size: 1.8em;
+        font-weight: 400;
+    }
 }
 
-@media screen and (max-width: 620px) {
-	.info-box {
-		font-size: 0.7em;
-	}
+@media screen and (max-width: 750px){
 	
-	.price {
-		display: none;
-	}
+	.course_number {
+        font-weight: 1.0em;
+    }
+
+	.course_name {
+        font-size: 1.2em;
+        font-weight: 200;
+    }
+	
 }
 
 @media screen and (max-width: 500px) {
@@ -332,12 +328,20 @@ footer {
 	.main-nav a:active {
 		border-bottom: none;
 	}
-	
-	.info-box {
-		top: 15px;
-		left: 20px;
+	.info-box{
+		top: 3px;
 	}
 	
+	.course_number {
+		font-size: 0.8em;
+        font-weight: 100;
+    }
+    
+    .course_name {
+        font-size: 1.0em;
+        font-weight: 100;
+    }
+
 	.footer-nav a {
 		font-size: 0.9em;
 		padding: 0 10px;
@@ -350,20 +354,19 @@ footer {
 	
 }
 
-
-@media screen and (max-width: 370px){
+@media screen and (max-width: 370px) {
 	
-	.info-box {
-		top: 0;
-		left: 10px;
+	.info-box{
+		top: 2px;
 	}
 	
-	.year {
-		font-size: 0.8em;
-	}
-
-	.model {
-		font-size: 1.5em;
+	.course_number {
+        font-weight: 100;
+    }
+    
+    .course_name {
+        font-size: 0.5em;
+        font-weight: 100;
 	}
 	
 	.row {
@@ -371,18 +374,8 @@ footer {
 		margin-bottom: 0;
 	}
 	
-	.gallery h2 {
-		font-size: 1.8em;
-	}
-	
-	.gallery .row .item {
-		margin-right: 0;
-		margin-bottom: 4px;
-	}
-	
 	.footer-nav a {
-		font-size: 0.8em;
+		font-size: 0.5em;
 		padding: 0 5px;
 	}
-	
 }
