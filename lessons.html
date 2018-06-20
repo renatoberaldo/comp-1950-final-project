@@ -5,6 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lessons - COMP 1950</title>
 <link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script>
+	$( function() {
+	  $( "#accordion" ).accordion();
+	} );
+</script>
+
 </head>
 <body>
 <div class="wrapper">
@@ -32,99 +43,128 @@
 				</h1>
 			</div>
 		</div>
-
-        <div class="lessons-tile">
-			<h2>Lessons</h2>
-	    </div>
-
+		
 		<!-- Edita a partir daqui -->
-		<div class="lessons">
+		<div id="accordion">
+			<h3>Section 1</h3>
+			<div>
+			<p>Agenda</p>
+			<ul>
+				<li>Introductions</li>
+				<li>Introductions</li>
+				<li>Web development tools</li>
+				<li>Web development tools</li>
+				<li>To Do</li>
+			</ul>
+			<p>Agenda</p>
+			<ul>
+				<li>instructors: Jeff Parker (jeffrey_parker@bcit.ca), Michael Whyte (michael_whyte@bcit.ca)</li>
+				<li>web site: this is it</li>
+				<li>all about you...</li>
+				<ul>
+					<li>your name</li>
+					<li>your background</li>
+					<li>what do you hope to achieve in this course? Be specific!</li>
+					
+				</ul>
+			</ul>
+
+			<p><b>Course Overview</b></p>
+			<p>Learn more about the course to help you determine if this is the right class for you.</p>
 			
-			<article class="lessons-week"> 
-				<h2>Session 1</h2>
-				<!-- <p>Course introduction and setup, tools and standards, HTML / CSS review</p> -->
-				<ul>
-					<li>Course introduction and setup, tools and standards, HTML / CSS review</li>
-					<li>Assignment 1</li>
-					<li>Session 2</li>
-				</ul>
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-			<article class="lessons-week"> 			
-				<h2>Session 2</h2>
-				<ul>
-					<li>CSS @font-face , responsive web design</li>
-					<li>Assignment 1</li>
-					<li>Session 2</li>
-				</ul>
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-			<article class="lessons-week"> 				
-				<h2>Session 3</h2>				
-				<ul>
-					<li>Flexbox</li>
-					<li>Assignment 3</li>
-					<li>Session 4</li>
-				</ul>
-
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-			<article class="lessons-week"> 				
-				<h2>Session 4</h2>
-				<p>CSS3 styling, transforms, transitions, animations</p>
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-			<article class="lessons-week"> 			
-				<h2>Session 5</h2>
-				<p>Responsive images, mobile navigation systems</p>
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-			<article class="lessons-week"> 				
-				<h2>Session 6</h2>
-				<p>Midterm Exam / Midterm project time</p>
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-
-			<article class="lessons-week"> 				
-				<h2>Session 7</h2>
-				<p>CSS grid</p>
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-
-			<article class="lessons-week"> 				
-				<h2>Session 8</h2>
-				<p>SASS CSS preprocessor</p>
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-
-			<article class="lessons-week"> 				
-				<h2>Session 9</h2>
-				<p>Collaborative development, Git and GitHub, group project announcement</p>
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-
-			<article class="lessons-week"> 				
-				<h2>Session 10</h2>
-				<p>Development servers, htaccess, PHP, JavaScript</p>
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-
-			<article class="lessons-week"> 				
-				<h2>Session 11</h2>
-				<p>Group project work</p>
-				<p>Download the class <a href="#">here.</a></p>
-			</article>
-
-			<article class="lessons-week"> 				
-				<h2>Session 12</h2>
-				<p>Final Exam</p>
-				<p>Download the class <a href="#">here.</a></p> 
-			</article>
-
+		
+			<p><b>Orientation: Course Materials</b></p>			
+			<p>COMP 1950 homework assignments, quizzes, in class exercises and example code can be accessed via Desire 2 Learn (D2L). Use your BCIT student number and password to access D2L. Course materials will become avilable as the course progresses. It is your responsibility to log in and download files as they become available.
+				If you have difficulty gaining access, consult the D2L help documentation, or contact BCIT Tech help desk at <b>604-412-7444</b> (Toll free: <b>1-800-351-5533</b>).
+			</p>
 			
+			
+			<p><b>Orientation: Web space</b></p>
+			<p>Each student will get a personal webspace where you will publish your homework assignments. This is not a continuation of your COMP1850 site (if you had one). This site is primarily for you to house your exercises, assignments and group work. Make it a site that is usable and functional.</p>
+		
+			
+			<ul>
+				<li>Your instructor will create webspaces for each of you.</li>
+				<li>Email your instructor this information:</li>
+				<ul>
+					<li>your myBCIT email - eg: yourname123@my.BCIT.ca</li>
+					<li>your student number - eg: A00123456</li>
+					<li>a case sensitive password you will remember - ???</li>
+					
+				</ul>
+				<li>Take the name portion of your my.bcit.ca email address and use it at the end of the URL described below (eg: if your email address is 'yourname123@my.bcit.ca', your email name is <b>'yourname123'</b>, so your url would be 'http://bcitcomp.ca/students/yourname123'
+					For example: <b>http://bcitcomp.ca/students/your_bcit_email_name</b>
+				</li>
+			</ul>
 
 
-		</div>
+			<p>Connect to your bcitcomp.ca account via FTP</p>
+			<p>Use Filezilla, or any FTP client to connect to bcitcomp.ca. The bcitcomp.ca server provides you with a space on the internet where you can publish your homework and assignments.</p>
+			
+			<ul class="connect-ftp">
+				<li>Choose: <b>File->SiteManager->New Site</b>, then describe the FTP server, eg "bcitcomp.ca"</li>
+				<li>Host: <b>bcitcomp.ca</b></li>
+				<li>Port: <b>21</b></li>
+				<li>User: <b>{yourBCITStudentNumber}@bcitcomp.ca</b> (use an uppercase A when typing your BCIT student number)</li>
+				<li>Password: <b>???</b></li>
+				<li>Servertype: <b>FTP</b> File Transfer Protocol</li>
+				<li>LogonType: <b>Normal</b></li>
+				<li>Click: <b>Connect</b></li>
+				<li>If you experience connectivity problems, re-check your input, or ask your instructor for assistance.</li>
+				
+			</ul>
+			
+			
+			<img src="images/filezilla_screenshot.png" alt="Connect FTP">
+
+
+			</div>
+
+
+
+
+
+
+
+
+			<h3>Section 2</h3>
+			<div>
+			  <p>
+			  Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+			  purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+			  velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+			  suscipit faucibus urna.
+			  </p>
+			</div>
+			<h3>Section 3</h3>
+			<div>
+			  <p>
+			  Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+			  Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+			  ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+			  lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+			  </p>
+			  <ul>
+				<li>List item one</li>
+				<li>List item two</li>
+				<li>List item three</li>
+			  </ul>
+			</div>
+			<h3>Section 4</h3>
+			<div>
+			  <p>
+			  Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+			  et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+			  faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+			  mauris vel est.
+			  </p>
+			  <p>
+			  Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+			  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+			  inceptos himenaeos.
+			  </p>
+			</div>
+		  </div>
 		<!-- até aqui -->
 
 
