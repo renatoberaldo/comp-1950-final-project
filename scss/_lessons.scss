@@ -15,6 +15,19 @@
 // }
 
 
+.accordion-child a:link  { 
+    color: blue;
+}
+
+
+.accordion-child  > *{
+    font-size: 14px;
+}
+
+.accordion-child p {
+    font-size: 14px;
+}
+
 // .lessons-week{
 //     display: flex;
 //     flex-direction: column;
