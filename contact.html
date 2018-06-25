@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact - COMP 1950</title>
 <link rel="stylesheet" href="styles/styles.css">
+<script src="scripts/jquery-1.12.4.js"></script>
+<script src="scripts/jquery-ui.js"></script>
+<script src="scripts/scripts.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -41,37 +44,39 @@
 					
 					<form>
 
-						<input type="text" name="user-name" placeholder="First Name" />
+						<input type="text" id="user-name" name="user-name" placeholder="First Name" />
 
-						<input type="text" name="user-email" placeholder="Email"/>
+						<input type="text" id="user-last-name" name="user-last-name" placeholder="Last Name" />
 
-						<input type="text" name="user-phone" placeholder="Phone number"/>
+						<input type="text" id="user-email" name="user-email" placeholder="Email"/>
 
-						<textarea rows="4"  name="user-coment" placeholder="Comments..."></textarea>
+						<input type="text" name="bcit-number" placeholder="BCIT number"/>
 
-						<input type="button" value="Save" />
+					
+
+						<input type="radio" name="status-student" value="1" checked> Prospective Student<br>
+						  
+						<input type="radio" name="status-student" value="2"> Current Student<br>
+
+						<input type="button" id="btn-save" value="Save" />
 					</form>
 				</div>
 
 
 				<div class="course-contacts">
 					
-						<h2>Informations</h2>
+						<h2>Contact Instructor</h2>
 						
-						<h2>Thiago Couto</h2>
-						<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions	 <a href="#">thiago@gmail.com</a></p>
+						<h2>Jeffrey Parkey</h2>
+						<p>Concat the instructor <a href="jeffrey_parker@bcit.ca">Jeffrey Parkey</a></p>
 
-						<h2>Thiago Couto</h2>
-						<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions	 <a href="#">thiago@gmail.com</a></p>
-
-						<h2>Thiago Couto</h2>
-						<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions	 <a href="#">thiago@gmail.com</a></p>
+						<h2>Michael Whyte</h2>
+						<p>Concat the instructor <a href="michael_whyte@bcit.ca">Michael Whyte</a></p>
 				</div>
 			
 		</div>
 		<!-- até aqui -->
-
-
+		
 	</main>
 	<footer>
 		<nav class="footer-nav">
