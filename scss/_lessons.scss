@@ -34,3 +34,20 @@
 .list-decimal{
     list-style: decimal;
 }
+
+video{
+    width:550px;
+    height: auto;
+}
+
+
+@media screen and (max-width: 720px) {
+    
+    pre{
+        white-space: pre-wrap;
+    }
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
