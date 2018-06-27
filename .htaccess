@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+
+  RewriteEngine on
+
+  # Página Principal
+    RewriteRule ^home?$ /rberaldonunes/final/index.php [NC,L]
+
+
+  # Página Principal
+    RewriteRule ^lessons?$ /rberaldonunes/final/lessons.php [NC,L]
+
+
+  # Página Clientes
+    RewriteRule ^contact?$ /rberaldonunes/final/contact.php [NC,L]
+
+
+  # Página Pedidos
+    RewriteRule ^outline?$ /rberaldonunes/final/outline.php [NC,L]
+
+
+  # Página Produtos
+    RewriteRule ^schedule?$ /rberaldonunes/final/schedule.php [NC,L]
+
+
+</IfModule>

@@ -31,6 +31,21 @@ header {
 	justify-content: space-between;
 }
 
+
+header a:hover,
+header a:active,
+header a:focus {
+	color: white;
+}
+
+header a.active {
+	border-bottom: 4px solid #014776;
+}
+
+.btn-menu {
+	display: none;
+}
+
 .logo {
     box-shadow: 0 1px 6px 0 rgba(0,0,0,.25);
 	background-color: white;
@@ -51,14 +66,17 @@ header {
 	height: 126px;
 }
 
-.main-nav ul {
-	display: flex;
+
+header nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
 }
 
-.main-nav a {
+
+
+header nav a {
 	font-size: 1.3em;
 	color: #454545;
 	border-bottom: 4px solid transparent;
@@ -67,14 +85,14 @@ header {
 	text-decoration: none;
 	padding: 0 30px;
 	transition: all 0.8s ease;
-	
 }
 
-.main-nav a:hover,
-.main-nav a:focus,
-.main-nav a:active {
+header nav a:hover,
+header nav a:active,
+header nav a:focus {
 	border-bottom: 4px solid #014776;
-    background-color: #f8f9fa;
+	background-color: #ececec;
+	color: black;
 }
 
 main {
@@ -304,30 +322,19 @@ footer {
 	}
 	
 	.logo {
-		height: auto;
-		width: 46px;
-		padding: 0;
-		box-shadow: none;
+		box-shadow: 0;
+		background-color: white;
+		padding: 0 30px;
+		position: relative;
+		z-index: 900;
+		height: 116px;
+		width: 153px;
+		margin-left: 20px;
+		display: flex;
+		align-items: center;
+		transition: all 0.3s ease;
 	}
 	
-	.logo:hover,
-	.logo:active,
-	.logo:focus {
-		height: auto;
-	}
-	
-	.main-nav a {
-		line-height: 54px;
-		padding: 0 15px;
-		font-size: 1.2em;
-		border-bottom: none;
-	}
-	
-	.main-nav a:hover,
-	.main-nav a:focus,
-	.main-nav a:active {
-		border-bottom: none;
-	}
 	.info-box{
 		top: 3px;
 	}

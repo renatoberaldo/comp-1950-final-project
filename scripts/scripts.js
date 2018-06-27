@@ -12,13 +12,23 @@ $( document ).ready(function() {
 
     $(function() {
         // Show Mobile Navigation
-        const body = document.body;
-        const btn = document.querySelector('.hamburger');
+        // const body = document.body;
+        // const btn = document.getElementById('.hamburger');
 
-        btn.addEventListener('click', function(){
-            body.classList.toggle('show');
+        // btn.addEventListener('click', function(){
+        //     body.classList.toggle('show');
+        // });
+
+        $('.btn-menu').click(function() {
+           $('body').addClass('show');
         });
+
     });
+
+
+    
+
+
     $( "#btn-save" ).click(function() {
        
         var erroMessage = "";
@@ -49,9 +59,8 @@ $( document ).ready(function() {
             alert("Form sent with success");
         }
     });
+
+    // Responsive Menu - Dropdown
   
 });
-
-
-    
 

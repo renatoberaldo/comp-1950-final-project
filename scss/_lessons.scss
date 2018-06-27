@@ -4,6 +4,15 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
+
+
+    
+    @media screen and (max-width: $tabletPortrait) {
+        
+        pre{
+            white-space: pre-wrap;
+        }
+    }
 }
 
 .tab {
@@ -19,17 +28,12 @@
 }
 
 .accordion{     
-    width: 95%;
-    
+    width: 95%;    
 }
 
 .accordion-child a:link  { 
     color: blue;
     font-weight: bolder;
-}
-
-.accordion-child > *{
-    font-size: 14px;
 }
 
 .list-decimal{
@@ -39,15 +43,10 @@
 video{
     width:550px;
     height: auto;
-}
 
-
-@media screen and (max-width: 720px) {
     
-    pre{
-        white-space: pre-wrap;
-    }
-    video {
+    @media (max-width: $tabletPortrait) {
+        
         width: 100%;
         height: auto;
     }
