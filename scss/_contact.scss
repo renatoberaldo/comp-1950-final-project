@@ -9,11 +9,11 @@
 }
 
 .user-form{
-    //@include form-contact-style-desktop;
+    @include form-contact-style-desktop;
 }
 
 .course-contacts{
-   // @include form-contact-style-desktop;
+    @include form-contact-style-desktop;
 }
 
 input[type=text], select {
@@ -45,10 +45,10 @@ input[type=button] {
     }
 
     .user-form{
-       // @include  form-contact-style-mobile;
+        @include  form-contact-style-mobile;
     }
     
     .course-contacts{
-       // @include  form-contact-style-mobile;
+        @include  form-contact-style-mobile;
     }
 }

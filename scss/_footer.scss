@@ -1,42 +1,75 @@
-footer {
-  border-top: 1px solid #b2bcc7;
-  background-color: #003E6B;
-  padding-top: 40px;
-  padding-bottom: 20px; /*}*/
-
-.footer-nav {
-  display: flex;
-  justify-content: center; }
-
-.footer-nav ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-.footer-nav a {
-  display: block;
-  color: $text-color-light;
-  text-decoration: none;
-  padding: 0 20px;
-  border-right: 1px solid $text-color-light; }
-
-.footer-nav a:hover,
-.footer-nav a:active,
-.footer-nav a:focus {
-  color:$main-color;
-  text-decoration: underline; }
-
-.footer-nav li:last-child a {
-  border-right: none; }
-
-.footer-nav .active {
-border-bottom: 1px solid white;
-}
-
-.copyright 
+footer 
 {
-  text-align: center;
-  margin-top: 40px;
-  color:$text-color-light; }
+    border-top: 1px solid #b2bcc7;
+    background-color: #003E6B;
+    padding-top: 40px;
+    padding-bottom: 20px; 
+
+    .footer-nav 
+    {
+        display: flex;
+        justify-content: center; 
+        @media screen and (max-width: $phoneLandscape) 
+        { 
+            text-align: center;     
+        }
+    
+    }
+
+    .footer-nav ul 
+    {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none; 
+        
+        @media screen and (max-width: $phoneLandscape) 
+        { 
+            flex-direction: column;      
+        }
+    }
+
+    .footer-nav a 
+    {
+        display: block;
+        color: $text-color-light;
+        text-decoration: none;
+        padding: 0 20px;
+        border-right: 1px solid $text-color-light; 
+        @media screen and (max-width: $phoneLandscape) 
+        {    
+            font-size: 20px;
+            padding: 10px 0 0 10px;
+            border-right: none;
+        }
+    }
+
+    .footer-nav a:hover,
+    .footer-nav a:active,
+    .footer-nav a:focus 
+    {
+        color:$main-color;
+        text-decoration: underline; 
+    }
+
+    .footer-nav li:last-child a 
+    {
+        border-right: none; 
+    }
+
+    .footer-nav .active 
+    {
+        border-bottom: 1px solid white;
+        @media screen and (max-width: $phoneLandscape) 
+        {    
+            border-bottom: none;
+        }
+    }
+
+    .copyright 
+    {
+        text-align: center;
+        margin-top: 40px;
+        color:$text-color-light; 
+    }
 }

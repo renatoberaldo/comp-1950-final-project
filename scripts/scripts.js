@@ -10,27 +10,9 @@ $( document ).ready(function() {
         });
     });
 
-    $(function() {
-        // Show Mobile Navigation
-        // const body = document.body;
-        // const btn = document.getElementById('.hamburger');
-
-        // btn.addEventListener('click', function(){
-        //     body.classList.toggle('show');
-        // });
-
-        $('.btn-menu').click(function() {
-           $('body').addClass('show');
-        });
-
-    });
-
-
-    
-
-
     $( "#btn-save" ).click(function() {
        
+
         var erroMessage = "";
 
         if ($('#user-name').val() == ""){
@@ -53,14 +35,25 @@ $( document ).ready(function() {
              }
         }
 
+
+        if($('#bcit-number').val() != ""){
+
+             var pattern = /^\A+[0-9]{8}$/; 
+
+             var str = $('#bcit-number').val();  
+         
+             if(str.match(pattern) == null){ 
+                erroMessage = 'Student number invalid';
+             }  
+        }
+
         if(erroMessage != ""){
             alert(erroMessage);
         }else {
             alert("Form sent with success");
+            $('form')[0].reset();
         }
     });
 
-    // Responsive Menu - Dropdown
-  
 });
 

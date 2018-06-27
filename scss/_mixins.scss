@@ -1,1 +1,9 @@
+@mixin  form-contact-style-desktop{
+    padding: 30px;
+    width: 40%; 
+}
 
+@mixin  form-contact-style-mobile{
+    padding: 30px;
+    width: 100%; 
+}

@@ -7,7 +7,7 @@ tr:nth-of-type(odd) {
 }
 th { 
     background: #333; 
-    color: white; 
+    color: $text-color-light; 
     font-weight: bold; 
 }
 td, th { 

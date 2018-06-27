@@ -17,7 +17,13 @@
 		<a href="index.php" class="logo">
 			<img src="images/bcit-logo.png" alt="BCIT Logo">
 		</a>
-		<button class="btn-menu"><i class="fas fa-bars"></i></button>
+		<!-- <button class="btn-menu"><i class="fas fa-bars"></i></button> -->
+
+		
+		<button class="btn-menu" id="btn-menu">
+            <span class="fas fa-bars">
+            </span><!-- end button-content -->
+        </button>
 		<nav>
 			<ul>
 				<li><a href="home"<?php if ($page == "home") { echo " class='active'"; }?>>Home</a></li>
@@ -29,4 +35,5 @@
 		</nav>	
 			
 	</header>
-	
+
+<script type="text/javascript" src="scripts/script-menu.js"></script>

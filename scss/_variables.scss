@@ -5,7 +5,11 @@ $main-color:#4777b7;
 
 
 // Media Query
-$tabletPortrait: 720px;
+$desktopMedium: 1024px;
+$tabletLandscape: 900px;
+$tabletPortrait: 750px;
+$phoneLandscape: 500px;
+$phonePortrait: 320px;
 
 
 // Text Colors
@@ -14,3 +18,7 @@ $text-color-light: white;
 
 //Font size
 $p-font-size:16px;
+
+
+//Font type
+$font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
