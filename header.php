@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,13 +27,12 @@
 		<nav>
 			<ul>
 				<li><a href="home"<?php if ($page == "home") { echo " class='active'"; }?>>Home</a></li>
-				<li><a href="outline.php"<?php if ($page == "outline") { echo " class='active'"; }?>>Outline</a></li>
-				<li><a href="schedule.php"<?php if ($page == "schedule") { echo " class='active'"; }?>>Schedule</a></li>
-				<li><a href="lessons.php"<?php if ($page == "lessons") { echo " class='active'"; }?>>Lessons</a></li>
-				<li><a href="contact.php"<?php if ($page == "contact") { echo " class='active'"; }?>>Contact</a></li>
+				<li><a href="outline"<?php if ($page == "outline") { echo " class='active'"; }?>>Outline</a></li>
+				<li><a href="schedule"<?php if ($page == "schedule") { echo " class='active'"; }?>>Schedule</a></li>
+				<li><a href="lessons"<?php if ($page == "lessons") { echo " class='active'"; }?>>Lessons</a></li>
+				<li><a href="contact"<?php if ($page == "contact") { echo " class='active'"; }?>>Contact</a></li>
 			</ul>
 		</nav>	
 			
 	</header>
 
-<script type="text/javascript" src="scripts/script-menu.js"></script>

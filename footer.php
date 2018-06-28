@@ -11,6 +11,7 @@
 		<p class="copyright">&copy; 2018 Renato & Thiago</p>
 	</footer>
 </div>
-<script type="text/javascript" src="scripts/scripts.js"></script>
+<script src="scripts/scripts.js"></script>
+<script src="scripts/script-menu.js"></script>
 </body>
 </html>

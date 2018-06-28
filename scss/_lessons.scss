@@ -49,5 +49,9 @@ video{
         
         width: 100%;
         height: auto;
+
+        .ui-accordion-content{
+            padding: 0 0.5em;
+        }
     }
 }

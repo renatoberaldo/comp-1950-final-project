@@ -197,7 +197,7 @@ main {
   }
 
   to {
-    transform: translatX(0);
+    transform: translateX(0);
  	opacity: 1;
   }
 }
@@ -308,7 +308,7 @@ footer {
 	}
 
 	.course_number {
-        font-weight: 1.0em;
+        font-weight: 100;
     }
 
 	.course_name {
@@ -329,7 +329,7 @@ footer {
 	}
 	
 	.logo {
-		box-shadow: 0;
+
 		background-color: $text-color-light;
 		padding: 0 30px;
 		position: relative;

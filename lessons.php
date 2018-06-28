@@ -34,12 +34,12 @@
 						<li><strong>instructors:</strong> Jeff Parker (<a href="mailto:jeffrey_parker@bcit.ca">jeffrey_parker@bcit.ca</a>), Michael Whyte (<a href="mailto:jeffrey_parker@bcit.ca">michael_whyte@bcit.ca</a>)</li>
 						<li><strong>web site: this is it</strong></li>
 						<li><strong>all about you...</strong></li>
-						<ul>
+						<li><ul>
 							<li>your name</li>
 							<li>your background</li>
 							<li>what do you hope to achieve in this course? Be specific!</li>
-							
 						</ul>
+</li>
 					</ul>
 					
 					<p><strong>Course Overview</strong></p>
@@ -60,18 +60,18 @@
 						If you have difficulty gaining access, consult the <a href="https://www.bcit.ca/distance/learnersupport/d2lhelp.shtml">D2L help documentation</a>, or contact BCIT Tech help desk at <strong>604-412-7444</strong> (Toll free: <strong>1-800-351-5533</strong>).
 					</p>
 				
-					<h3>Orientation: Web space</h3></p>
+					<h3>Orientation: Web space</h3>
 					<p>Each student will get a personal webspace where you will publish your homework assignments. This is not a continuation of your COMP1850 site (if you had one). This site is primarily for you to house your exercises, assignments and group work. Make it a site that is usable and functional.</p>
 				
 					<ul>
 						<li>Your instructor will create webspaces for each of you.</li>
 						<li>Email your instructor this information:</li>
-						<ul>
+						<li><ul>
 							<li>your myBCIT email - eg: yourname123@my.BCIT.ca</li>
 							<li>your student number - eg: A00123456</li>
 							<li>a case sensitive password you will remember - ???</li>
-							
 						</ul>
+						</li>
 						<li>Take the name portion of your my.bcit.ca email address and use it at the end of the URL described below (eg: if your email address is <i>'yourname123@my.bcit.ca'</i>, your email name is <i>'yourname123'</i>, so your url would be <i>'http://bcitcomp.ca/students/yourname123'</i> <br />
 							For example: <strong>http://bcitcomp.ca/students/your_bcit_email_name</strong>
 						</li>
@@ -117,10 +117,11 @@
 					</ul>
 				
 					<h3>Tools: Browser-based development</h3>
-					<pThere are three major web browser platforms to consider:></p>
+					<p>There are three major web browser platforms to consider:</p>
 					
 					<ul>
 						<li><a href="https://www.mozilla.org/en-US/">Mozilla</a></li>
+						<li>
 						<ul>
 							<li>This is the platform that <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a> runs on</li>
 							<li>Mozilla Foundation's web platform created by web developers</li>
@@ -131,7 +132,9 @@
 							<li>Plethora of add-ons that make web development easy</li>
 							<li>Add-ons have a downside: bloat</li>
 						</ul>
+							</li>
 						<li><a href="http://www.webkit.org/">WebKit</a></li>
+						<li>
 						<ul>
 							<li>This is the platform that gives us <a href="http://www.google.com/chrome">Chrome</a>, <a href="http://www.apple.com/safari/">Safari</a> and <a href="http://www.opera.com/">Opera</a>, with a few other smaller browsers out there as well.</li>
 							<li>Excellent platform that is very fast and standards compliant</li>
@@ -141,13 +144,16 @@
 							<li>Initially a thin environment, recent releases have made Webkit-based browsers excellent for developers</li>
 							<li>Macintosh based developers may need to enable <a href="http://www.jonhartmann.com/index.cfm/2011/4/28/Enabling-Safari-Developer-Tools">web developer options</a> in Safari before accessing the developer tools</li>
 						</ul>
+							</li>
 						<li><a href="https://www.microsoft.com/en-ca/">Microsoft</a></li>
+						<li>
 						<ul>
 							<li>The vendor for <a href="https://www.microsoft.com/en-ca/windows/microsoft-edge">Edge</a> and <a href="https://www.microsoft.com/en-ca/download/internet-explorer.aspx">Internet</a> Explorer</li>
 							<li>Microsoft's Edge is a major improvement on it's previous browser offerings.</li>
 							<li>Edge offers very good standards compliance and browser tools.</li>
 							<li>Do <strong>NOT</strong> use Internet Explorer as your development browser. It is one the least standards compliant of the browsers. It is also no longer supported with updates.</li>
 						</ul>
+							</li>
 					</ul>
 
 					<p>Remember to test your work in as many browsers as you can! <a href="http://browsershots.org/BrowserShots"></a> allows you to do basic testing for earlier versions of Chrome, Firefox, Safari, and Opera. If you need to test for early iterations of IE, try: <a href="http://netrenderer.com/">Netrenderer</a></p>
@@ -166,7 +172,7 @@
 						<li>Element inspector</li>
 					</ul>
 					
-					<p>Search online to see what is available for your development browser:</b>
+					<p>Search online to see what is available for your development browser:</p>
 					<ul>
 						<li>Ad blockers</li>
 						<li>Password managers</li>
@@ -189,7 +195,7 @@
 
 					<p>Get familiar with using one of these tools. They are invaluable for understanding code and for finding, diagnosing, and fixing problems with code. You will be required to use them in the classes ahead. Practice adding/editing/removing both HTML and CSS using your development browser's built in tools.</p>
 				
-					<h3>Typical Features</h3></p>
+					<h3>Typical Features</h3>
 					<ul>
 						<li><strong>F12</strong> key will toggle open/close the tools in most browsers</li>
 						<li>The <strong>Elements/Inspector</strong> tab provides an overview of the HTML and CSS</li>
@@ -267,11 +273,13 @@
 					<p>HTTP urls cannot contain certain characters, and certain characters will cause unwanted effects and behaviours when used in a url. Follow best practices for all file and folder names:</p>
 					<ul>
 						<li>File and folder names should NOT contain:</li>
-						<ul>
+						
+						<li><ul>
 							<li>Capital letters</li>
 							<li>Spaces</li>
-							<li>Special characters: <strong>! @ # $ % ^ & * ( ) + { } [ ] : ; " < > ? | etc...</strong></li>
+							<li>Special characters: <strong>! @ # $ % ^ & * ( ) + { } [ ] : ; " &lt; > ? | etc...</strong></li>
 						</ul>
+					</li>
 						<li>Acceptable non-alphanumeric characters: . _ - ~</li>
 						<li>Filenames should either be descriptive of the file contents, or use the default page name: <strong>index.htm, index.html</strong> or <strong>index.shtml</strong> (or whatever your server default is)</li>
 						<li>Folder names should always be descriptive. Folder structure should be logical (eg: <strong>/hockey/nhl/canucks</strong>).</li>
@@ -279,19 +287,21 @@
 
 					<h3>Standards: File Management</h3>
 					<ul>
-						<li>Including an index.html file in every folder on your server will ensure users cannot go snooping around your filesystem. the index.html file can be a blank HTML page if you like, as long as the user does not see a list of files when they request a folder
-						<>Browser caching can reduce excessive request/response transactions between client and server. however, some browsers may cache things like the CSS, so if the styles have changed since caching the client may not get the latest styles.
+						<li>Including an index.html file in every folder on your server will ensure users cannot go snooping around your filesystem. the index.html file can be a blank HTML page if you like, as long as the user does not see a list of files when they request a folder</li>
+						<li>Browser caching can reduce excessive request/response transactions between client and server. however, some browsers may cache things like the CSS, so if the styles have changed since caching the client may not get the latest styles.</li>
+						<li>
 						<ul>
 							<li><strong>Ctrl + F5</strong> (<strong>Cmd + F5</strong> for Mac) will force a page reload. Very useful when developing on a localhost http server.</li>
 							<li>If a file name has changed, the browser will have to make a new request from the server. versioning your file names will ensure users always have the latest version of any file (for example <strong>styles_1.0.css, styles_1.1.css, styles_1.2.css, styles_2.0.css</strong> etc)</li>
 						</ul>
+					</li>
 						<li>If there are files/pages on your server no longer being used, be sure to either remove them or locate them in a place where users are not going to accidentally find them
 					</ul>
 
 					<h3>Standards: Code Style and Organization</h3>
 					<p>In COMP1950 students are expected to present a readable, well organized code style:</p>
 					<ul>
-						<li>Comment <strong>all code</strong> with your name (or nickname if you prefer). Do this for all text based files (<strong>.html, .css, .js, .php</strong>, etc)</li>
+						<li>Comment <strong>all code</strong> with your name (or nickname if you prefer). Do this for all text based files (<strong>.html, .css, .js, .php</strong>, etc)<br>
 					
 						<figure>
 								<img src="images/html_commenting.png" alt="HTML Commenting">
@@ -300,25 +310,25 @@
 						<figure>
 							<img src="images/css_commenting.png" alt="CSS Commenting">
 						</figure>
-
-						<li>In HTML, use carriage return and tabs to indicate parent-child tag relationships. Likewise, code your CSS to make it easy to see which rules are applied to each selector.</li>
+					</li>
+						<li>In HTML, use carriage return and tabs to indicate parent-child tag relationships. Likewise, code your CSS to make it easy to see which rules are applied to each selector.<br>
 					
 						<figure>
 							<img src="images/parent-child-relationships.png" alt="Parent Child Relationships">
 						</figure>
-						<li>Separate different file types into folders. At minimum, keep all non-html files in their own folder. If you like you can make a dedicated 'html' folder for your <strong>.html</strong> files as well.</li>
+					</li>
+						<li>Separate different file types into folders. At minimum, keep all non-html files in their own folder. If you like you can make a dedicated 'html' folder for your <strong>.html</strong> files as well.<br>
 					
 						<figure>
 							<img src="images/folder_structure.png" alt="Folder Structure">
 						</figure>
-
+					</li>
 						<li>Use the .html extension for all HTML files (not <strong>.htm</strong>). Use the typical extension for all other text based files.</li>
 						<li>Write structurally valid HTML code: <a href="http://validator.w3.org/">W3C HTML validator</a></li>
 						<li>Write syntactically valid CSS code: <a href="http://jigsaw.w3.org/css-validator/">W3C CSS validator</a></li>
 						
 						<li>Include a <a href="http://validator.w3.org/check?uri=referer">referer link</a> on all your HTML pages: <br>
-						<strong>&lt;a href="http://validator.w3.org/check?uri=referer">validate</a>
-						Semantic Markup</strong></li>
+						<strong><a href="http://validator.w3.org/check?uri=referer">validate</a> Semantic Markup</strong></li>
 					</ul>
 				
 					<h3>Semantic Markup</h3>
@@ -350,17 +360,16 @@
 						<li>Logical styles are important for screen readers, physical styles are not</li>
 						<li>Given a choice, logical styles are usually preferred</li>
 						<li>Some physical styles:</li>
+						<li>
 						<ul>	
 							<li><strong>b</strong> - Bold</li>
 							<li><strong>i</strong> - Italic</li>
 							<li><strong>s</strong> - Strikethrough</li>
 							<li><strong>u</strong> - Underline</li>
 						</ul>
+					</li>
 					</ul>
-					
-					
-					
-					
+
 					<h3>Logical Styling</h3>
 					<ul>
 						<li>Best way to markup content for long-term usage</li>
@@ -368,6 +377,7 @@
 						<li>Use DOM to change behaviour (via scripting)</li>
 						<li>Requires thinking ahead</li>
 						<li>Examples of logical styles:</li>
+						<li>
 						<ul class="logical-style">
 							<li><strong>strong - Increase importance</strong></li>
 							<li><strong>em</strong> - Add Emphasis</li>
@@ -382,6 +392,7 @@
 							<li><strong>del</strong> - Deleted text</li>
 							<li><strong>ins</strong> - Inserted text</li>
 						</ul>
+					</li>
 					</ul>
 							
 					
@@ -403,11 +414,13 @@
 						<li>Confirm you have access to your <a href="http://bcitcomp.ca/1950/lecture/01/#student_webspace">online webspace</a> and that your FTP credentials are valid</li>
 						<li>Be sure you know how to add/edit/remove HTML and CSS using a browser tool</li>
 						<li>Install VS Code on your home computer or laptop. Explore some of the accompanying help documentation to familiarize yourself with how to code your HTML and CSS using this tool.</li>
+						<li>
 						<ul>
 							<li><a href="https://code.visualstudio.com/#alt-downloads">Download VS Code</a></li>
 							<li><a href="https://code.visualstudio.com/docs/introvideos/basics">Setup and basics of VS Code</a></li>
 							<li><a href="https://code.visualstudio.com/docs">VS Code help documentation</a></li>
 						</ul>
+					</li>
 					</ul>
 					<p>...and yes, there will be a practical, open book quiz at the start of session #2! (hint: practice using a browser based diagnostic tool)</p>
 					
@@ -429,7 +442,7 @@
 					The W3C recommends the <a href="https://www.w3.org/International/questions/qa-choosing-encodings">UTF-8 charset</a> for web development. It includes an impressive array of languages and special characters, and is well supported in common devices.<br />
 					<h3>Assign Character Set</h3>
 					If it is not specified, a web browser will choose the character set it thinks is most appropriate, but it is a better practice for the developer to ensure the correct character set by applying the meta tag to the head section of every HTML page:<br>
-					<strong>&lt;meta charset="utf-8" /></strong></h3>
+					<strong>&lt;meta charset="utf-8" /></strong>
 					<ul>
 						<li>Write all your text-based code (<strong>.html, .css, .js, .php</strong>, etc) in UTF-8. At development time, ensure your text editor is saving files in this format. This setting is usually found in the application's Preferences menu option.</li>
 						<li>Unless your audience includes very old browsers, you can <a href="https://tools.oratory.com/altcodes.html">code special characters</a> directly into the HTML (you dont need to use HTML entities for most special characters).</li>
@@ -473,52 +486,66 @@
 					<p><strong>XHTML Rules:</strong></p>
 					<ul>
 						<li>All elements must be properly nested</li>
+						<li>
 						<ul>
-								<li>This is not valid: <strong>&lt;p>&lt;b>Bolded Text&lt;/p>&lt;/b></strong></li>
-								<li>This can be a problem with things like Lists &lt;ol> and &lt;ul>.</li>
-								<li>Especially when closing the List Item &lt;li> tag that contains the &lt;ul> or &lt;ol> tag.</li>
+							<li>This is not valid: <strong>&lt;p>&lt;b>Bolded Text&lt;/p>&lt;/b></strong></li>
+							<li>This can be a problem with things like Lists &lt;ol> and &lt;ul>.</li>
+							<li>Especially when closing the List Item &lt;li> tag that contains the &lt;ul> or &lt;ol> tag.</li>
 						</ul>
+						</li>
 					</ul>
 					<ul>
 						<li>All tags must close</li>
+						<li>
 						<ul>
 							<li>Example: <strong>&lt;p>Some text here&lt;/p></strong></li>
 							<li>Empty Elements are closed as well: <strong>&lt;br /></strong> or <strong>&lt;img src="#" /></strong></li>
 							<li>An extra space is required before the slash to work with all browsers.</li>
 						</ul>
+						</li>
 					</ul>
 					<ul>
 						<li>All tag names must be in lower case</li>
+						<li>
 						<ul>
 							<li><strong>&lt;Img Src="some_image.gif"></strong> is not valid</li>
 						</ul>
+						</li>
 					</ul>
 					<ul>
 						<li>Attribute names are always in lower case</li>
+						<li>
 						<ul>
 							<li><strong>&lt;p ALIGN="center"></strong> should be <strong>&lt;p align="center"></strong></li>
 						</ul>
+						</li>
 					</ul>
 					<ul>
 						<li>All attributes must be quoted</li>
+						<li>
 						<ul>
 							<li><strong>&lt;body bgcolor=black></strong> will not work, you need: <strong>&lt;body bgcolor="black"></strong></li>
 						</ul>
+						</li>
 					</ul>
 					<ul>
 						<li>Attributes cannot be minimized</li>
+					</ul>
 					<ul>
 						<li><strong>&lt;input type="checkbox" checked></strong> cannot be used. The valid code is: <strong>&lt;input type="checkbox" checked="checked" /></strong></li>
 					</ul>
-					</ul>
+					
 					<ul>
 						<li>Name Attribute is no longer used (except with forms). Replace "name" with "id".</li>
+						<li>
 						<ul>
 							<li><strong>&lt;img src="picture.gif" name="myimage" /></strong> will not validate.<br /> Use <strong>id="myimage"</strong> instead.</li>
 						</ul>
+						</li>
 					</ul>
 					<ul>
 						<li>Mandatory Elements: Every XHTML document must have these elements:</li>
+						<li>
 						<ul>
 							<li><strong>&lt;html></strong></li>
 							<li><strong>&lt;head></strong></li>
@@ -526,19 +553,24 @@
 							<li><strong>&lt;body</strong>></li>
 							<li>The <strong>&lt;!DOCTYPE></strong> declaration must be there, but it is part of the document itself rather than an element of the document.</li>
 						</ul>
+						</li>
 					</ul>
 					<ul>
 						<li>Documents must be well-formed</li>
+						<li>
 						<ul>
-						<li>The document must conform to all of the above rules</li>
+							<li>The document must conform to all of the above rules</li>
 						</ul>
+						</li>
 					</ul>
 					<ul>
 						<li>Optional XML declaration</li>
+						<li>
 						<ul>
 							<li>Not required, but good practice:</li>
 							<li><strong>&lt;?xml version="1.0" encoding="ISO-8859-1"?></strong></li>
 						</ul>
+						</li>
 					</ul>
 					<ul>
 						<li>Optional Element: An XHTML document should also declare the type and character encoding in the head section to ensure the server sends the correct content-type header:<br>
@@ -551,7 +583,7 @@
 					HTML5 is more evolutionary then revolutionary. The bulk of previous HTML elements and attributes are maintained, with a few deprecations, and several additions.
 					Significant features include:</p>
 					<ul>
-						<li>Ultra simple Doctype: <!DOCTYPE html></li>
+						<li>Ultra simple Doctype: &lt;!DOCTYPE html></li>
 						<li>Specifies how browsers should behave with imperfect code</li>
 						<li>Ability to embed XML, MathML or SVG markup.</li>
 						<li>Standardized Javascript API increases client side script compatibility across browsers</li>
@@ -572,7 +604,7 @@
 						<li>When embedding CSS the type attribute is not required:
 							<br/><strong>&lt;style>&lt;/style></strong></li>
 						<li>Including javascripts is simplified as well (type attribute is not required)
-							<br/><strong>&lt;script src="javascripts.js"></strong></script></li>
+							<br/><strong>&lt;script src="javascripts.js">&lt;/script></strong></li>
 					</ul>
 					<h3>HTML5: Enhanced Semantic Coding</h3>
 					<p>It is crucial for all HTML content to be <a href="https://en.wikipedia.org/wiki/Semantic_HTML">semantically marked up</a>. This is how browsers, search engines, and screen readers make sense of online content.</p>
@@ -595,10 +627,10 @@
 					<h3>HTML5 Semantic Alterations</h3>
 					<p>HTML5 also brings a few notable semantic alterations to older tags:</p>
 					<ul>
-						<li><a = href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">&lt;a></a> though still an inline tag, it is now ok to nest multiple block level tags (headings, paragraphs etc) inside an anchor tag</li>
-						<li><a = href="https://developer.mozilla.org/en/docs/Web/HTML/Element/small">&lt;small></a> no longer a 'physical' tag for smaller sized print, it now has semantic value: meaning 'small print', i.e. 'legalese'. the <strong>big</strong> element has been deprecated</li>
-						<li><a = href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b">&lt;b></a> no longer means 'render bold'. now it means the text is 'stylisticly offset from the normal text', without conveying any extra importance. to convey extra importance, use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">&lt;strong></a></li>
-						<li><a = href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">&lt;i></a> now means the text is 'in an alternate voice or mood', without conveying any extra emphasis. to convey extra emphasis, use &lt;em></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">&lt;a></a> though still an inline tag, it is now ok to nest multiple block level tags (headings, paragraphs etc) inside an anchor tag</li>
+						<li><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/small">&lt;small></a> no longer a 'physical' tag for smaller sized print, it now has semantic value: meaning 'small print', i.e. 'legalese'. the <strong>big</strong> element has been deprecated</li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b">&lt;b></a> no longer means 'render bold'. now it means the text is 'stylisticly offset from the normal text', without conveying any extra importance. to convey extra importance, use <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">&lt;strong></a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">&lt;i></a> now means the text is 'in an alternate voice or mood', without conveying any extra emphasis. to convey extra emphasis, use &lt;em></li>
 						<li>Deprecated tags:  <strong>&lt;big></strong>, <strong>&lt;font></strong>, <strong>&lt;strike></strong>, and a few more. Developers should use CSS instead of these deprecated tags.</li>
 						<li>Deprecated attributes: <strong>align</strong>, <strong>bgcolor</strong>, <strong>border</strong>, <strong>height</strong>, <strong>size</strong>, <strong>type</strong>, <strong>width</strong> and more. Developers should use CSS instead of these deprecated attributes.</li>
 					</ul>
@@ -628,17 +660,17 @@
 						<li><strong>placeholder="value"</strong>: prepopulates field with data</li>
 						<li><strong>autofocus="autofocus"</strong>: sets the input to have cursor focus</li>
 						<li><strong>required="required"</strong>: ensures field is filled in before submission</li>
-						<li><strong>There are also several new <strong>&lt;input></strong> type attribute variants:</li>
-						<ul>
+						<li><strong>There are also several new &lt;input></strong> type attribute variants:</li>
+						<li><ul>
 							<li><strong>type="email"</strong>: checkes for the pattern of emails</li>
 							<li><strong>type="url"</strong>: web addesses</li>
 							<li><strong>type="date"</strong>: calendar popup</li>
-							<li></strong>type="tel"</strong>: telephone numbers</li>
+							<li><strong>type="tel"</strong>: telephone numbers</li>
 							<li><strong>type="search"</strong>: formats text input as search input</li>
 							<li><strong>type="color"</strong>: color picker popup</li>
 							<li><strong>type="range"</strong>: sliding scales</li>
 							<li><strong>type="pattern"</strong>: regular expression pattern matching</li>
-						</ul>
+						</ul></li>
 					</ul>
 
 
@@ -678,13 +710,13 @@
 						<li><strong>autoplay="autoplay"</strong> begin playing audio as soon as page is loaded *NOT very user friendly*</li>
 						<li>you may also wish to include a direct link for your users to download the file</li>
 					</ul>
-					<strong>
+					
 						<pre>&lt;audio controls="controls"></pre>
 						<pre class="tab">&lt;source src="media/house-a-square.mpg" type="audio/mpeg" /></pre>
 						<pre class="tab">&lt;source src="media/house-a-square.mp3" type="audio/mp3" /></pre>
 						<pre class="tab">&lt;source src="media/house-a-square.ogg" type="audio/ogg" /></pre>
 						<pre>&lt;/audio></pre>
-					</strong>
+					
 					
 					<audio controls="controls">
 						<source src="media/house-a-square.mpg" type="audio/mpeg" />
@@ -712,7 +744,7 @@
 						<li><strong>autoplay="autoplay"</strong> begin playing video as soon as page is loaded *NOT very user friendly*</li>
 						<li>you may also wish to include a direct link for your users to download the file</li>
 					</ul>
-					<strong>
+					
 							<pre>&lt;video 	preload="none" </pre>
 							<pre class="tab">controls="controls" </pre>
 							<pre class="tab">poster="media/poster-bear-in-water.jpg"></pre>
@@ -721,7 +753,7 @@
 							<pre class="tab">&lt;source src="media/bear-in-water.mp4" type="video/mp4" /></pre>
 							<pre class="tab">&lt;source src="media/bear-in-water.ogg" type="video/ogg" /></pre>
 							<pre>&lt;/video></pre>
-					</strong>
+					
 
 					<video 	preload="none"  
 						controls="controls" 
@@ -741,11 +773,12 @@
 						<li><a href="https://caniuse.com/">caniuse.com</a> is an excellent source for compatibility testing</li>
 						<li>Try the <a href="http://html5test.com/">HTML5Test</a> to test a specific browser.</li>
 						<li>To ensure early versions of Internet Explorer will render HTML5 tags correctly, you can add the HTML5 shiv:</li>
+					</ul>
 					<ul>
 						<li><strong>&lt;script>document.createElement("article");&lt;</strong>/script></li>
 						<li>This creates an element called <strong>&lt;article></strong> which the browser (IE, in this case) can understand and style appropriately</li>
 					</ul>
-					</ul>
+
 					<ul>
 						<li>Creating an entry for every element can get a bit heavy, so you can use the <strong>HTML5shiv</strong> script written by <strong>Remy Sharp</strong>. Insert a coded-comment that will apply the shiv ONLY with IE browsers earlier than version 9:</li>
 						<li><strong>&lt;!--[if lt IE 9]></strong></li>
@@ -767,12 +800,12 @@
 					<h3>Agenda</h3>
 					<ul>
 						<li><strong>Referencing Stylesheets</strong></li>
-						<li><strong></strong>Importing</strong></li>
-						<li><strong></strong>Fonts</strong></li>
-						<li><strong></strong>Compact CSS</strong></li>
-						<li><strong></strong>Advanced Selectors</strong></li>
-						<li><strong></strong>Rule Specificity</strong></li>
-						<li><strong></strong>To Do</strong></li>
+						<li><strong>Importing</strong></li>
+						<li><strong>Fonts</strong></li>
+						<li><strong>Compact CSS</strong></li>
+						<li><strong>Advanced Selectors</strong></li>
+						<li><strong>Rule Specificity</strong></li>
+						<li><strong>To Do</strong></li>
 					</ul>
 					
 					<h3>Referencing CSS</h3>
@@ -786,16 +819,17 @@
 						<li><strong>title</strong> attribute allows the user to group stylesheets</li>
 						<li><strong>media</strong> attribute allows you to specify what medium this should be viewed in</li>
 					</ul>
-					<strong>&lt;link	rel="stylesheet" 
+					&lt;link	rel="stylesheet" 
 						href="http://www.mysite.com/css/styles.css" 
 						type="text/css" 
 						title="Main Style" 
-						media="screen" /></strong>
+						media="screen" />
 						
 					<h3>Media variations: media attribute</h3>
 					<ul>
 						<li><strong>media="type"</strong> can be a powerful tool</li>
 						<li>Examples of media types:</li>
+						<li>
 						<ul>
 							<li><strong>all</strong> - well supported, commonly used (<i>DEFAULT</i>)</li>
 							<li><strong>aural</strong></li>
@@ -808,6 +842,7 @@
 							<li><strong>tty</strong></li>
 							<li><strong>tv</strong></li>
 						</ul>
+						</li>
 						<li>Note that most smart phone devices (iPhones, Andriod, etc) do not identify themselves as media type <strong>handheld</strong>. The reasoning was that the devices were more than capable of displaying standard web sites, so they identify as <strong>screen</strong></li>
 					</ul>
 					
@@ -832,36 +867,36 @@
 
 					<h3>Persistent Styles</h3>
 					<p>Persistent styles apply in all cases, even when alternate styles are chosen.</p>
-					<strong>
+					
 						<pre>&lt;!-- rel="stylesheet" with NO title="" --></pre>
 						<pre>&lt;link	rel="stylesheet" </pre>
 						<pre class="tab">href="css/persistent_styles.css" /></pre>
-					</strong>
+					
 
 						
 					<h3>Preferred Styles</h3>
 					<p>Preferred styles will be the default, but will be replaced if alternate styles are chosen.</p>
-					<strong>
+					
 							<pre>&lt;!-- rel="stylesheet" AND a title="" --></pre>
 							<pre>&lt;link	rel="stylesheet" </pre>
 							<pre class="tab">href="css/default_styles.css"</pre>
 							<pre class="tab">title="Standard Styling"/></pre>
-					</strong>
+					
 
 						
 					<h3>Alternate Styles</h3>
 					<p>Alternate styles will not be applied by default, but may be chosen by the user agent. Each alternate stylesheet must have a title="".</p>
-					<strong>
+					
 						<pre>&lt;!-- use rel="alternate stylesheet" for alternative stylesheets... --></pre>
 						<pre>&lt;link	rel="alternate stylesheet"</pre>
 						<pre class="tab">href="css/large_text.css"</pre>
 						<pre class="tab">title="Large Text Styles" /></pre>
-					</strong>
+					
 						
 						
 					<h3>Grouping Stylesheets</h3>
 					<p>If more than one link tag shares the same <strong>title=""</strong> then they will be grouped together.</p>
-					<strong>
+					
 						<pre>&lt;-- group stylesheets with shared title="" --></pre>
 						<pre>&lt;link	rel="alternate stylesheet" </pre>
 							<pre class="tab">href="css/monchrome_layout.css"</pre>
@@ -869,7 +904,7 @@
 						<pre>&lt;link	rel="alternate stylesheet" </pre>
 							<pre class="tab">href="css/monchrome_fonts.css"</pre>
 							<pre class="tab">title="Monochrome Styles" 	/></pre>
-					</strong>
+					
 
 					<p>To enable alternate stylesheet switching, you can either apply some javascript to manage the switch with hyperlinks, or use <a href="https://support.mozilla.org/en-US/questions/841578">Firefox for alternate stylesheets</a>.</p>
 
@@ -906,15 +941,15 @@
 
 					<h3><strong>Third Party Font Server</strong></h3>
 					<p>Browse the font server site, select the fonts you like and they wil provide you with code for a <strong>&lt;link /></strong> tag to add to your HTML. You can then use the font in your CSS.</p>
-					<strong>
+					
 							<pre>&lt;!-- add the link tag to the HTML --></pre>
 							<pre>&lt;link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet" /></pre>
-					</strong>
 					
-					<strong>/* use the font in the CSS */
+					
+					<strong>/* use the font in the CSS */</strong>
 						<pre>selector{</pre>
 						<pre class="tab">font-family: 'Bungee', cursive;</pre>
-						<pre>}</strong></pre>
+						<pre>}</pre>
 
 					<p>No longer stuck with 'Arial', 'Helvetica', 'Georgia' and the rest.</p>
 
@@ -929,7 +964,7 @@
 						<li>Apply the new font in CSS</li>
 					</ul>
 			
-					<strong>
+					
 						<pre>/* load the font in CSS */</pre>
 						<pre>@font-face {</pre>
 						<pre>font-family: 'alex_brushregular';</pre>
@@ -937,15 +972,15 @@
 						<pre class="tab">url('/fonts/alexbrush-regular-webfont.woff') format('woff'), </pre>
 						<pre class="tab">url('/fonts/alexbrush-regular-webfont.ttf') format('tff');</pre>
 						<pre>}</pre>
-					</strong>
 					
-					<strong>
+					
+					
 						<pre>/* use the font in CSS */</pre>
 						<pre>selector{</pre>
 						<pre class="tab">font: bold 20px alex_brushregular ;</pre>
 						<pre class="tab">color:#555;</pre>
 						<pre>}</pre>
-					</strong>
+					
 					<p><strong>Don't get carried away with wild font choices. Some fonts have very poor readability, reducing accessibility.</strong></p>
 					
 
@@ -977,7 +1012,7 @@
 
 
 					<h3>Compact CSS Code</h3>
-					<p></p>When building your CSS rules, there are some easy ways to compact your code, reducing code bloat and filesize.</p>
+					<p>When building your CSS rules, there are some easy ways to compact your code, reducing code bloat and filesize.</p>
 
 					<h3>Grouping selectors</h3>
 					<ul>
@@ -1006,35 +1041,43 @@
 					<p>Box model properties support 1, 2, 3 and 4 values. For example:</p>
 					<ul>
 						<li><strong>border-width:10px;</strong></li>
+						<li>
 						<ul>
 							<li>all four borders are 10px</li>
 						</ul>
+						</li>
 					</ul>
 					<ul>
 						<li><strong>border-width:10px 20px;</strong></li>
+						<li>
 						<ul>
 							<li>top and bottom borders are 10px</li>
 							<li>left and right borders are 20px</li>
 						</ul>
+						</li>
 					</ul>
 					
 					<ul>
 						<li><strong>border-width:10px 20px 30px;</strong></li>
+						<li>
 						<ul>
 							<li>top border is 10px</li>
 							<li>left and right borders are 20px</li>
 							<li>bottom border is 30px</li>
 						</ul>
+						</li>
 					</ul>
 					
 					<ul>
 						<li><strong>border-width:10px 20px 30px 40px;</strong></li>
+						<li>
 						<ul>
 							<li>top border is 10px</li>
 							<li>right border is 20px</li>
 							<li>bottom border is 30px</li>
 							<li>left border is 40px</li>
 						</ul>
+						</li>
 					</ul>
 
 
@@ -1067,16 +1110,19 @@
 					<p>Best part: No <strong>span</strong> or <strong>div</strong> required to access these pseudo-elements.</p>
 					<ul>
 						<li>Within <strong>a</strong> pseudo-elements in particular, it's important to follow a certain order:</li>
+						<li>
 						<ul>
 							<li><strong>a:link</strong></li>
 							<li><strong>a:visited</strong></li>
 							<li><strong>a:hover</strong></li>
 							<li><strong>a:active</strong></li>
 						</ul>
+						</li>
 					</ul>
 					<p>Easy mnemonic: LVHA - <strong>L</strong>o<strong>V</strong>e - <strong>HA</strong>te. Because of the way that CSS applies rules, it looks at the LAST rule for a given element and applies more weight to it. For example, if you are hovering over a link, you don't want to see the link state</p>
 					<ul>
 						<li>There are several additional <a href="http://css.maxdesign.com.au/selectutorial/selectors_pseudo_class.htm">pseudo-classes</a> and  <a href="http://css.maxdesign.com.au/selectutorial/selectors_pseudo_element.htm">pseudo-elements</a></li>
+						<li>
 						<ul>
 							<li><strong>selector:before, selector:after</strong> - add text content before or after the selector's content</li>
 							<li><strong>selector:first-line, selector:first-letter</strong> - style the first line or letter of the selector</li>
@@ -1086,6 +1132,7 @@
 							<li><strong>selector:nth-child(2n)</strong> - select every even numbered child</li>
 							<li><strong>selector:nth-child(2n+1)</strong> - select every odd numbered child</li>
 						</ul>
+						</li>
 					</ul>
 
 
@@ -1128,6 +1175,7 @@
 						<li>Similarly, <strong>img[alt] {border: 1pt red solid; }</strong> will draw a red line around all images with an alt attribute</li>
 						<li>You can further direct the attribute selector to find content that is at the beginning (using the carat: ^), somewhere inside (using the asterisk: *) or end of a value (using the dollar sign: $)</li>
 						<li>Attribute selector examples:</li>
+						<li>
 						<ul>
 							<li><strong>img[alt]</strong> - select all img tags that have alt attributes</li>
 							<li><strong>img[src="images/pic.jpg"]</strong> - select img tags whose src is 'images/pic.jpg'</li>
@@ -1135,6 +1183,7 @@
 							<li><strong>img[src*="logo"]</strong> - select all img tags whose src CONTAINS 'logo'</li>
 							<li><strong>img[src$=".png"]</strong> - select all img tags whose src ENDS with '.png'</li>
 						</ul>
+						</li>
 					</ul>
 									
 					<h3>Rule Order & Specificity</h3>
@@ -1143,9 +1192,11 @@
 					<ul>
 						<li><strong>Discover all declarations.</strong> Find all declarations that apply to the element and property in question, for the target media type. Declarations apply if the associated selector matches the element in question.</li>
 						<li><strong>Sheet Order.</strong> The primary sort of the declarations is by weight and origin: for normal declarations, author style sheets override user style sheets which override the default style sheet.</li>
+						<li>
 						<ul>
 							<li>Note: For "!important" declarations, user style sheets override author style sheets which override the default style sheet. "!important" declaration override normal declarations. An imported style sheet has the same origin as the style sheet that imported it.</li>
 						</ul>
+						</li>
 						<li><strong>Specificity:</strong> The secondary sort is by specificity of selector: more specific selectors will override more general ones. Pseudo-elements and pseudo-classes are counted as normal elements and classes, respectively.</li>
 						<li><strong>Sort by Order:</strong> Finally, sort by order specified: if two rules have the same weight, origin and specificity, the latter specified wins. Rules in imported style sheets are considered to be before any rules in the style sheet itself.</li>
 					</ul>
@@ -1162,14 +1213,14 @@
 					</ul>
 					<p>Next, write the three numbers in exact order with no spaces or commas to obtain a three digit number. (Note, you may need to convert the numbers to a larger base to end up with three digits.) The final list of numbers corresponding to selectors will easily determine specificity with the higher numbers winning out over lower numbers. Following is a list of selectors sorted by specificity:</p>
 					<ul>
-						<li>#id1</li>
-						/* <strong>id</strong>=1 class=0 <strong>HTML</strong>=0 --> specificity = 100 */
-						<li>UL UL LI.red</li>
-						/* <strong>id</strong>=0 class=1 <strong>HTML</strong>=3 --> specificity = 013 */
-						<li>LI.red</li>
-						/* <strong>id</strong>=0 class=1 HTML=1 --> specificity = 011 */
-						<li>LI</li>
-						/* id=0 class=0 HTML=1 --> specificity = 001 */
+						<li>#id1<br>
+						/* <strong>id</strong>=1 class=0 <strong>HTML</strong>=0 --> specificity = 100 */</li>
+						<li>UL UL LI.red<br>
+						/* <strong>id</strong>=0 class=1 <strong>HTML</strong>=3 --> specificity = 013 */</li>
+						<li>LI.red<br>
+						/* <strong>id</strong>=0 class=1 HTML=1 --> specificity = 011 */</li>
+						<li>LI<br>
+						/* id=0 class=0 HTML=1 --> specificity = 001 */</li>
 					</ul>
 
 
@@ -1191,7 +1242,7 @@
 
 
 				
-				<h3>Section 4</h3>
+				<h3>Lesson 4</h3>
 				<div>
 				<p>
 				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
@@ -1202,7 +1253,7 @@
 				</div>
 
 				
-				<h3>Section 5</h3>
+				<h3>Lesson 5</h3>
 				<div>
 				<p>
 				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
@@ -1213,7 +1264,7 @@
 				</div>
 
 				
-				<h3>Section 6</h3>
+				<h3>Lesson 6</h3>
 				<div>
 				<p>
 				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
@@ -1224,7 +1275,7 @@
 				</div>
 
 				
-				<h3>Section 7</h3>
+				<h3>Lesson 7</h3>
 				<div>
 				<p>
 				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
@@ -1235,7 +1286,7 @@
 				</div>
 
 				
-				<h3>Section 8</h3>
+				<h3>Lesson 8</h3>
 				<div>
 				<p>
 				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
@@ -1246,7 +1297,7 @@
 				</div>
 
 				
-				<h3>Section 9</h3>
+				<h3>Lesson 9</h3>
 				<div>
 				<p>
 				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
@@ -1257,7 +1308,7 @@
 				</div>
 
 				
-				<h3>Section 10</h3>
+				<h3>Lesson 10</h3>
 				<div>
 				<p>
 				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
@@ -1268,7 +1319,7 @@
 				</div>
 
 				
-				<h3>Section 11</h3>
+				<h3>Lesson 11</h3>
 				<div>
 				<p>
 				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
@@ -1279,7 +1330,7 @@
 				</div>
 
 				
-				<h3>Section 12</h3>
+				<h3>Lesson 12</h3>
 				<div>
 				<p>
 				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
