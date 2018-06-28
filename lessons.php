@@ -72,8 +72,8 @@
 							<li>a case sensitive password you will remember - ???</li>
 						</ul>
 						</li>
-						<li>Take the name portion of your my.bcit.ca email address and use it at the end of the URL described below (eg: if your email address is <i>'yourname123@my.bcit.ca'</i>, your email name is <i>'yourname123'</i>, so your url would be <i><font class="break-line">'http://bcitcomp.ca/students/yourname123'</font></i> <br />
-							For example: <strong><font class="break-line">http://bcitcomp.ca/students/your_bcit_email_name</font></strong>
+						<li>Take the name portion of your my.bcit.ca email address and use it at the end of the URL described below (eg: if your email address is <i>'yourname123@my.bcit.ca'</i>, your email name is <i>'yourname123'</i>, so your url would be <i><span class="break-line">'http://bcitcomp.ca/students/yourname123'</span></i> <br />
+							For example: <strong><span class="break-line">http://bcitcomp.ca/students/your_bcit_email_name</span></strong>
 						</li>
 					</ul>
 				
@@ -84,7 +84,7 @@
 						<li>Choose: <strong>File->SiteManager->New Site</strong>, then describe the FTP server, eg "bcitcomp.ca"</li>
 						<li>Host: <strong>bcitcomp.ca</strong></li>
 						<li>Port: <strong>21</strong></li>
-						<li>User: <strong><font class="break-line">{yourBCITStudentNumber}@bcitcomp.ca</font></strong> (use an uppercase A when typing your BCIT student number)</li>
+						<li>User: <strong><span class="break-line">{yourBCITStudentNumber}@bcitcomp.ca</span></strong> (use an uppercase A when typing your BCIT student number)</li>
 						<li>Password: <strong>???</strong></li>
 						<li>Servertype: <strong>FTP</strong> File Transfer Protocol</li>
 						<li>LogonType: <strong>Normal</strong></li>
@@ -775,14 +775,14 @@
 						<li>To ensure early versions of Internet Explorer will render HTML5 tags correctly, you can add the HTML5 shiv:</li>
 					</ul>
 					<ul>
-						<li><strong><font class="break-line">&lt;script>document.createElement("article")</font>;&lt;</strong>/script></li>
+						<li><strong><span class="break-line">&lt;script>document.createElement("article")</span>;&lt;</strong>/script></li>
 						<li>This creates an element called <strong>&lt;article></strong> which the browser (IE, in this case) can understand and style appropriately</li>
 					</ul>
 
 					<ul>
 						<li>Creating an entry for every element can get a bit heavy, so you can use the <strong>HTML5shiv</strong> script written by <strong>Remy Sharp</strong>. Insert a coded-comment that will apply the shiv ONLY with IE browsers earlier than version 9:</li>
 						<li><strong>&lt;!--[if lt IE 9]></strong></li>
-						<li><strong>&lt;script <font class="break-line">src="http://html5shiv.googlecode.com/svns/trunk/html5.js">&lt;/script></font>&lt;![endif]--></strong></li>
+						<li><strong>&lt;script <span class="break-line">src="http://html5shiv.googlecode.com/svns/trunk/html5.js">&lt;/script></span>&lt;![endif]--></strong></li>
 					
 						<li>Since HTML5 understands both HTML4 and XHTML tags, converting an older HTML file into HTML5 is simply a matter of updating the DOCTYPE and meta tag for charset.</li>
 					</ul>
