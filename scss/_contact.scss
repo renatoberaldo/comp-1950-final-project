@@ -16,7 +16,8 @@
     @include form-contact-style-desktop;
 }
 
-input[type=text], select {
+
+input[type=text], select, textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -24,6 +25,10 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+textarea{
+    height: 150px;
 }
 
 input[type=button] {

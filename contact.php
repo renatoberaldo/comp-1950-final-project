@@ -30,6 +30,8 @@
 
 						<input type="text" id="bcit-number" name="bcit-number" placeholder="BCIT number"/>
 
+						<textarea id="subject" name="subject" placeholder="Comments..."></textarea>
+						
 						<input type="radio" name="status-student" value="1" checked> Prospective Student<br>
 						  
 						<input type="radio" name="status-student" value="2"> Current Student<br>

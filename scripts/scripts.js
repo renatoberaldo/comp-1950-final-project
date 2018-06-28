@@ -40,7 +40,7 @@ $( document ).ready(function() {
 
              var pattern = /^\A+[0-9]{8}$/; 
 
-             var str = $('#bcit-number').val();  
+             var str = $('#bcit-number').val().toUpperCase();  
          
              if(str.match(pattern) == null){ 
                 erroMessage = 'Student number invalid';

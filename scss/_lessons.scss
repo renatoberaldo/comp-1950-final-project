@@ -7,8 +7,8 @@
 
 
     
-    @media screen and (max-width: $tabletPortrait) {
-        
+    @media screen and (max-width: $tabletPortrait) 
+	{        
         pre{
             white-space: pre-wrap;
         }
@@ -53,5 +53,13 @@ video{
         .ui-accordion-content{
             padding: 0 0.5em;
         }
+    }
+}
+
+
+@media screen and (max-width: $tabletPortrait) 
+{        
+    .break-line{
+        word-break: break-all;
     }
 }
